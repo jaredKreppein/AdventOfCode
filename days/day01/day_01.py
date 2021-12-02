@@ -1,7 +1,7 @@
 # Advent of Code Day 1 - Sonar Sweep
 
 # part 1
-def count_increases(input_file):
+def part_1(input_file):
     """
     When comparing values in a list like:
 
@@ -27,7 +27,7 @@ def count_increases(input_file):
 
 
 # part 2
-def count_sliding_increases(input_file):
+def part_2(input_file):
     """
     When comparing 2 sums there are 4 values at play:
 
@@ -64,8 +64,8 @@ def count_sliding_increases(input_file):
 # ----- main -----
 input_file = "input.txt"
 
-part_1_answer = count_increases(input_file)
+part_1_answer = part_1(input_file)
 print("answer to part 1: {}".format(part_1_answer))
 
-part_2_answer = count_sliding_increases(input_file)
+part_2_answer = part_2(input_file)
 print("answer to part 2: {}".format(part_2_answer))
