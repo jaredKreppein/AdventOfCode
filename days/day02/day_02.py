@@ -50,7 +50,7 @@ def part_2(input_file):
                 pitch += int(line[1])
             else: # line[0] == 'up'
                 pitch -= int(line[1])
-        return horizontal * vertical
+    return horizontal * vertical
 
 
 # ----- main -----
