@@ -3,7 +3,7 @@
 My [Advent of Code 2021](https://adventofcode.com) solutions using Python 3.10. Each day is in it's own directory under `days`.
 
 ## Set Up
-Set the versioning - I use pyenv:
+Set the versioning - I use [pyenv](https://github.com/pyenv/pyenv):
 ```
 pyenv local 3.10
 ```
