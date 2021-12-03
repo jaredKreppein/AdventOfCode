@@ -1,4 +1,4 @@
-# AdventOfCode
+# Advent Of Code
 
 My [Advent of Code 2021](https://adventofcode.com) solutions using Python 3.10. Each day is in it's own directory under `days`.
 
